@@ -1,15 +1,3 @@
-# Setup terraform cloud and workspace
-terraform {
-  backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "your organization"
-
-    workspaces {
-      name = "your workspace"
-    }
-  }
-}
-
 # Setup terraform providers
 terraform {
   required_providers {
