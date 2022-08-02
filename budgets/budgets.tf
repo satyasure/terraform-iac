@@ -13,6 +13,6 @@ resource "aws_budgets_budget" "monthly" {
     threshold                  = 80
     threshold_type             = "PERCENTAGE"
     notification_type          = "ACTUAL"
-    subscriber_email_addresses = ["luthfi.anandra@ludesdeveloper.com"]
+    subscriber_email_addresses = ["satyanarayana.sure@gmail.com"]
   }
 }
