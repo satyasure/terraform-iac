@@ -1,4 +1,0 @@
-*.out
-*.tfstate.*
-*.terraform/*
-*.terraform.*
