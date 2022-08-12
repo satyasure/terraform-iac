@@ -6,13 +6,11 @@ This module creates the a SSM document to support encrypted session manager comm
 
 ## Usage
 
-Update version to the latest release here: <https://github.com/bridgecrewio/terraform-aws-session-manager/releases>
-
 Instances with Public IPs do not need VPC endpoints
 
 ```terraform
 module "ssm" {
-  source                    = "bridgecrewio/session-manager/aws"
+  source                    = "../../aws"
   version                   = "0.2.0"
   bucket_name               = "my-session-logs"
   access_log_bucket_name    = "my-session-access-logs"
@@ -26,7 +24,7 @@ Private instances with VPC endpoints for S3 and CloudWatch logging
 
 ```terraform
 module "ssm" {
-  source                    = "bridgecrewio/session-manager/aws"
+  source                    = "../../session-manager/aws"
   version                   = "0.2.0"
   bucket_name               = "my-session-logs"
   access_log_bucket_name    = "my-session-access-logs"
