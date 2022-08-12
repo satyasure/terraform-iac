@@ -10,7 +10,7 @@ variable "secret_key" {
 }
 variable "region" {
   type    = string
-  default = "us-east-2"
+  default = "eu-west-3"
 }
 variable "private_ip_address" {
   type    = string

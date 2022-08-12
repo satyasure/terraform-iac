@@ -30,10 +30,10 @@ resource "aws_iam_policy" "ec2_policy" {
             ], 
             "Resource": "*" 
         } 
-    ] 
+    ],
 }
+)
 }
-
 #Create a role
 
 resource "aws_iam_role" "ec2_role" {
