@@ -1,5 +1,12 @@
 # terraform-iac
 
-S3 Backend and DynamoDB for state locking
+## S3 Backend and DynamoDB for state locking
 
-Demo VPC creation
+## Bastion Host
+
+## VPC Endpoints
+
+## IAM profiles
+
+
+
